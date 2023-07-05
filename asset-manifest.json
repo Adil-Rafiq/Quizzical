@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/Quizzical/static/js/main.e9afe5b6.js",
+    "index.html": "/Quizzical/index.html",
+    "static/media/large_blue_blob.svg": "/Quizzical/static/media/large_blue_blob.5a0801127e1ec77c80b57fb7ab867cd6.svg",
+    "static/media/small_blue_blob.svg": "/Quizzical/static/media/small_blue_blob.0fdf2214edd292678ba28d9bb071b523.svg",
+    "static/media/large_lemony_blob.svg": "/Quizzical/static/media/large_lemony_blob.aab50735d1dbc905f9ed419ced3aabef.svg",
+    "static/media/small_lemony_blob.svg": "/Quizzical/static/media/small_lemony_blob.60bbd7b90c40651297f6f08ef2a401cd.svg",
+    "main.e9afe5b6.js.map": "/Quizzical/static/js/main.e9afe5b6.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e9afe5b6.js"
+  ]
+}
