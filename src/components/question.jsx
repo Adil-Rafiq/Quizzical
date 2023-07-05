@@ -12,16 +12,16 @@ export default function Question({ q_num, question, options, onClick, onRef }) {
     <div className="question-container" id={`${q_num}`}>
       <p className="title">{question}</p>
       <ul className="options" ref={optionsRef}>
-        <li id={`${q_num}A`} className="option" onClick={onClick}>
+        <li id={q_num} className="option" onClick={onClick}>
           {options[0]}
         </li>
-        <li id={`${q_num}B`} className="option" onClick={onClick}>
+        <li id={q_num} className="option" onClick={onClick}>
           {options[1]}
         </li>
-        <li id={`${q_num}C`} className="option" onClick={onClick}>
+        <li id={q_num} className="option" onClick={onClick}>
           {options[2]}
         </li>
-        <li id={`${q_num}D`} className="option" onClick={onClick}>
+        <li id={q_num} className="option" onClick={onClick}>
           {options[3]}
         </li>
       </ul>

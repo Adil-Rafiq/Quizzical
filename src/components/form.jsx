@@ -21,7 +21,7 @@ export default function Form({ onSubmit }) {
         id="amount"
         defaultValue={5}
         min={1}
-        max={10}
+        max={50}
         onChange={(event) => setAmount(event.target.value)}
       />
 

@@ -94,9 +94,8 @@ export default function App() {
   }
 
   function updateUserResponse(event) {
-    const id = event.target.id;
     const newResponse = {
-      question: id[0],
+      question: event.target.id,
       option: event.target.innerHTML,
       event: event,
     };
